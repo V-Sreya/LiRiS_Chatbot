@@ -30,7 +30,7 @@ graph TD
         Backend -->|WhatsApp Integration| WhatsAppAPI[WhatsApp Business API]
     end
 
-    ChromaDB -->|Stores| ProductData[Product Data (Text & Embeddings)]
+    ChromaDB -->|Stores| ProductData["Product Data (Text & Embeddings)"]
     OCR -->|Processes| Documents[Invoices, Warranty Cards]
     OpenCV_Pyzbar -->|Scans| QRCodes[Product QR Codes]
     TensorFlow -->|Powers| RAG[RAG Model] & NLP[NLP Tasks]
