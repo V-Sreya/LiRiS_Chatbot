@@ -1,0 +1,30 @@
+2026-04-28 09:14:02,113 INFO  [api.startup] ShopWave API server starting on 0.0.0.0:8080 (env=prod, build=2026.04.28.1)
+2026-04-28 09:14:02,418 INFO  [db.pool] PostgreSQL pool ready (size=20, idle=20)
+2026-04-28 09:14:02,612 INFO  [cache.redis] Redis connected redis-prod-01.shopwave.internal:6379
+2026-04-28 09:14:02,901 INFO  [search.index] Elasticsearch index 'products_v3' loaded — 41,228 docs
+2026-04-28 09:14:03,004 INFO  [api.startup] Server ready in 891ms
+2026-04-28 09:18:44,221 INFO  [orders.create] order=SW-201144 customer=C-08821 total=3999 payment=UPI status=PLACED
+2026-04-28 09:19:02,840 INFO  [payments.upi] order=SW-201144 vpa=user@hdfcbank txn=UPI-9F8A1 status=SUCCESS
+2026-04-28 09:24:11,560 WARN  [search.query] slow_query duration=1287ms q="aurora buds" filters={"category":"Electronics"} hits=24
+2026-04-28 09:31:55,902 INFO  [orders.create] order=SW-201145 customer=C-12044 total=3598 payment=CARD status=PLACED
+2026-04-28 09:32:04,710 ERROR [payments.card] order=SW-201145 gateway=razorpay code=BAD_REQUEST_ERROR msg="card declined: insufficient funds"
+2026-04-28 09:32:04,712 INFO  [orders.update] order=SW-201145 status=PAYMENT_FAILED
+2026-04-28 09:34:21,008 INFO  [orders.retry] order=SW-201145 customer initiated retry payment=UPI
+2026-04-28 09:34:33,442 INFO  [payments.upi] order=SW-201145 vpa=manish@oksbi txn=UPI-A12B7 status=SUCCESS
+2026-04-28 09:34:33,443 INFO  [orders.update] order=SW-201145 status=CONFIRMED
+2026-04-28 10:01:12,773 INFO  [auth.login] customer=C-15772 method=otp status=SUCCESS ip=49.36.x.x
+2026-04-28 10:14:47,330 WARN  [inventory.stock] sku=AURORA-BUDS-PRO-3 remaining=12 threshold=20 — restock alert sent
+2026-04-28 10:42:09,512 ERROR [search.index] elasticsearch timeout retry=1 took=5012ms — failing over to read replica
+2026-04-28 10:42:14,680 INFO  [search.index] elasticsearch read replica online — service restored
+2026-04-28 11:10:55,001 INFO  [orders.create] order=SW-201146 customer=C-22090 total=4499 payment=CARD status=PLACED
+2026-04-28 11:11:02,840 INFO  [payments.card] order=SW-201146 gateway=razorpay txn=pay_NkQp9 status=AUTHORIZED amount=4499
+2026-04-28 11:24:11,902 INFO  [shipments.create] order=SW-201146 awb=BLR-449871 carrier=delhivery eta=2026-04-30
+2026-04-28 12:00:00,000 INFO  [scheduler.job] flash_sale_window=START tier=hero discount=30 duration=6h
+2026-04-28 12:00:00,123 INFO  [cache.invalidate] keys=2,148 pattern=product:* reason=price_change
+2026-04-28 12:33:19,440 WARN  [api.ratelimit] client=mobile-android version=4.12.1 hits=120/min limit=100/min — backoff applied
+2026-04-28 13:14:08,210 ERROR [recommendations.engine] model_id=cf-v7 timeout took=3041ms — fell back to popular_items
+2026-04-28 13:55:42,889 INFO  [orders.cancel] order=SW-201144 customer initiated reason=ordered_by_mistake refund_eta=2026-05-03
+2026-04-28 14:22:01,667 INFO  [refunds.process] order=SW-201144 amount=3999 method=UPI status=INITIATED
+2026-04-28 15:01:30,210 INFO  [reports.daily] gmv_today=412330 orders=147 aov=2804 cancellations=4 refund_total=11842
+2026-04-28 18:00:00,003 INFO  [scheduler.job] flash_sale_window=END tier=hero summary={"orders":312,"gmv":1124550,"top_sku":"NOVA-WATCH-S2"}
+2026-04-28 23:59:58,801 INFO  [reports.daily] day_close gmv=2417880 orders=812 new_customers=178 nps_responses=42 nps_score=58

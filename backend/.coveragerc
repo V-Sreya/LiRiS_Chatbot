@@ -1,0 +1,30 @@
+[run]
+# Branch coverage disabled because Python 3.12's sys.monitoring backend can't
+# track branches yet, and the line-tracing fallback re-imports torch and
+# crashes during pytest collection (sentence_transformers → torch _C reload).
+# Statement coverage on the modules we actually own is what we need anyway.
+branch = False
+# Limit instrumentation to the modules we own and test directly.
+# Torch / chromadb / sentence_transformers fail to re-import under coverage
+# tracing, so we exclude every third-party path and unrelated app modules.
+source =
+    app.services.chatbot_service
+    app.services.ingestion.fetcher
+    app.services.ingestion.discoverer
+    app.services.ingestion.url_validator
+    app.services.ingestion.page_classifier
+    app.services.translation_service
+    app.api.endpoints
+
+omit =
+    */.venv/*
+    */tests/*
+    */__pycache__/*
+
+[report]
+show_missing = True
+skip_covered = False
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    if __name__ == .__main__.:

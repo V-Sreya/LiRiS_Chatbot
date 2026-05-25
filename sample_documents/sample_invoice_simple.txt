@@ -1,0 +1,23 @@
+SHOPWAVE — TAX INVOICE
+=======================
+Invoice No.: SW/2025/04-1188
+Invoice Date: 2026-05-12
+Order ID: SW-ORD-90214
+Customer: Priya Sharma · priya.s@example.com
+Shipping: Indiranagar, Bengaluru 560038
+
+Line items
+----------
+1 × Logitech MX Master 3S Mouse        ₹  8,995.00
+2 × Keychron K2 Pro Keyboard           ₹ 11,990.00  (₹5,995 ea)
+1 × Pelican Laptop Sleeve (15")        ₹  1,499.00
+
+Subtotal                               ₹ 22,484.00
+GST @ 18%                              ₹  4,047.12
+Shipping                               ₹      0.00
+--------------------------------------------------
+GRAND TOTAL                            ₹ 26,531.12
+
+Payment: Razorpay (UPI · paid)
+Return window: 7 days from delivery
+Support: support@shopwave.in · +91-22-4000-9912
