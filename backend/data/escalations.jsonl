@@ -1,0 +1,2 @@
+{"ticket_id": "ESC-20260511-185122-smoke-", "session_id": "smoke-test", "name": null, "contact": "a@b.com", "reason": "smoke", "priority": "normal", "transcript": [], "created_at": "2026-05-11T18:51:22.447776+00:00"}
+{"ticket_id": "ESC-20260511-185135-smoke-", "session_id": "smoke-1778525492", "name": "QA Bot", "contact": "qa@liris.test", "reason": "smoke test", "priority": "high", "transcript": [{"role": "user", "content": "hi"}], "created_at": "2026-05-11T18:51:35.013033+00:00"}

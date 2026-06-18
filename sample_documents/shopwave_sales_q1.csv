@@ -1,0 +1,26 @@
+order_id,date,customer_id,category,product,quantity,unit_price_inr,total_inr,payment,city
+SW-100231,2026-01-04,C-08821,Electronics,Aurora Buds Pro 2,1,3999,3999,UPI,Mumbai
+SW-100232,2026-01-04,C-12044,Fashion,Studio Linen Dress,2,1799,3598,Card,Bengaluru
+SW-100233,2026-01-05,C-09110,Home & Living,Ember Stone Candle,3,449,1347,UPI,Pune
+SW-100234,2026-01-05,C-04503,Beauty,Velvet Matte Lipstick,1,599,599,Wallet,Delhi
+SW-100235,2026-01-06,C-15772,Electronics,Helix K-Pad Mini,1,3299,3299,Card,Hyderabad
+SW-100236,2026-01-06,C-08821,Sports,Pro Yoga Mat 6mm,1,1299,1299,UPI,Mumbai
+SW-100237,2026-01-07,C-21008,Food & Snacks,Dark Chocolate Bar 90%,5,199,995,COD,Chennai
+SW-100238,2026-01-08,C-11340,Electronics,Nova Watch S2,1,5499,5499,Card,Bengaluru
+SW-100239,2026-01-08,C-12044,Fashion,Tide x SW Sneaker,1,4499,4499,UPI,Bengaluru
+SW-100240,2026-01-09,C-17821,Home & Living,Brisk K1 Kettle,1,2199,2199,Card,Kolkata
+SW-100241,2026-01-10,C-04503,Beauty,Hydrating Sunscreen SPF50,2,449,898,UPI,Delhi
+SW-100242,2026-01-12,C-22090,Electronics,Aurora Buds Pro 3,1,4999,4999,Card,Ahmedabad
+SW-100243,2026-01-13,C-08821,Fashion,Studio Linen Dress,1,1799,1799,UPI,Mumbai
+SW-100244,2026-01-15,C-31055,Sports,Match Football Size 5,1,899,899,COD,Lucknow
+SW-100245,2026-01-16,C-15772,Home & Living,Ember Stone Candle,2,449,898,Card,Hyderabad
+SW-100246,2026-01-18,C-09110,Electronics,Helix K-Pad Mini,1,3299,3299,UPI,Pune
+SW-100247,2026-01-20,C-11340,Beauty,Velvet Matte Lipstick,3,599,1797,Wallet,Bengaluru
+SW-100248,2026-01-22,C-21008,Food & Snacks,Spicy Noodle Pack,4,149,596,UPI,Chennai
+SW-100249,2026-01-25,C-22090,Fashion,Tide x SW Sneaker,1,4499,4499,Card,Ahmedabad
+SW-100250,2026-01-28,C-17821,Electronics,Nova Watch S2,1,5499,5499,UPI,Kolkata
+SW-100251,2026-02-02,C-12044,Beauty,Hydrating Sunscreen SPF50,1,449,449,UPI,Bengaluru
+SW-100252,2026-02-05,C-04503,Home & Living,Brisk K1 Kettle,1,2199,2199,Card,Delhi
+SW-100253,2026-02-09,C-31055,Electronics,Aurora Buds Pro 3,1,4999,4999,UPI,Lucknow
+SW-100254,2026-02-12,C-08821,Sports,Pro Yoga Mat 6mm,2,1299,2598,Card,Mumbai
+SW-100255,2026-02-18,C-15772,Fashion,Studio Linen Dress,1,1799,1799,UPI,Hyderabad
