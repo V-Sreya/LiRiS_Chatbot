@@ -1,4 +1,4 @@
-#LiRiS AI-Powered E-commerce Chatbot
+# LiRiS AI-Powered E-commerce Chatbot
 
 This project aims to develop a comprehensive AI-powered e-commerce chatbot with advanced capabilities including RAG (Retrieval Augmented Generation), computer vision, OCR, QR code detection, multi-lingual support, real-time currency conversion, human escalation, chat history, WhatsApp integration, and website embeddability. The entire solution will be containerized using Docker for easy deployment.
 
